@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Face1
+  rotate: true
+  xy: 246, 5
+  size: 65, 50
+  orig: 65, 50
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: true
+  xy: 2, 2
+  size: 150, 110
+  orig: 150, 110
+  offset: 0, 0
+  index: -1
+Hair_Left
+  rotate: true
+  xy: 593, 184
+  size: 70, 115
+  orig: 70, 115
+  offset: 0, 0
+  index: -1
+Hair_Right
+  rotate: true
+  xy: 471, 164
+  size: 90, 120
+  orig: 90, 120
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 114, 17
+  size: 130, 135
+  orig: 130, 135
+  offset: 0, 0
+  index: -1
+LeftArm
+  rotate: false
+  xy: 710, 184
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+LeftArm_Melee
+  rotate: true
+  xy: 670, 147
+  size: 35, 70
+  orig: 35, 70
+  offset: 0, 0
+  index: -1
+LeftFoot
+  rotate: false
+  xy: 809, 127
+  size: 45, 55
+  orig: 45, 55
+  offset: 0, 0
+  index: -1
+LeftHand
+  rotate: false
+  xy: 742, 142
+  size: 65, 40
+  orig: 65, 40
+  offset: 0, 0
+  index: -1
+LeftHand_Melee
+  rotate: false
+  xy: 921, 204
+  size: 75, 50
+  orig: 75, 50
+  offset: 0, 0
+  index: -1
+LeftLeg
+  rotate: false
+  xy: 246, 72
+  size: 50, 80
+  orig: 50, 80
+  offset: 0, 0
+  index: -1
+LeftLeg_Back
+  rotate: false
+  xy: 782, 184
+  size: 65, 70
+  orig: 65, 70
+  offset: 0, 0
+  index: -1
+Leg_Front
+  rotate: false
+  xy: 856, 127
+  size: 60, 65
+  orig: 60, 65
+  offset: 0, 0
+  index: -1
+RightArm
+  rotate: true
+  xy: 593, 147
+  size: 35, 75
+  orig: 35, 75
+  offset: 0, 0
+  index: -1
+RightArm_Melee
+  rotate: false
+  xy: 298, 50
+  size: 45, 55
+  orig: 45, 55
+  offset: 0, 0
+  index: -1
+RightFoot
+  rotate: true
+  xy: 298, 8
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+RightHand
+  rotate: true
+  xy: 345, 65
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+RightHand_Melee
+  rotate: false
+  xy: 849, 194
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+RightLeg
+  rotate: true
+  xy: 304, 107
+  size: 60, 65
+  orig: 60, 65
+  offset: 0, 0
+  index: -1
+RightLeg_Back
+  rotate: false
+  xy: 371, 107
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: true
+  xy: 304, 169
+  size: 85, 165
+  orig: 85, 165
+  offset: 0, 0
+  index: -1
+Wrentch
+  rotate: true
+  xy: 2, 154
+  size: 100, 300
+  orig: 100, 300
+  offset: 0, 0
+  index: -1
