@@ -1,0 +1,286 @@
+
+Tank.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sprites/Back_Arm
+  rotate: false
+  xy: 909, 4
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+Sprites/Back_Hand
+  rotate: false
+  xy: 1348, 92
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+Sprites/Eye
+  rotate: false
+  xy: 1690, 109
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Sprites/Finger_Below
+  rotate: false
+  xy: 242, 6
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+Sprites/Finger_Front
+  rotate: true
+  xy: 488, 36
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+Sprites/Finger_Up
+  rotate: true
+  xy: 1709, 111
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+Sprites/Foot_20
+  rotate: false
+  xy: 425, 35
+  size: 61, 16
+  orig: 61, 16
+  offset: 0, 0
+  index: -1
+Sprites/Foot_45
+  rotate: false
+  xy: 363, 32
+  size: 60, 38
+  orig: 60, 38
+  offset: 0, 0
+  index: -1
+Sprites/Foot_Front
+  rotate: true
+  xy: 952, 7
+  size: 47, 38
+  orig: 47, 38
+  offset: 0, 0
+  index: -1
+Sprites/Front_Arm
+  rotate: false
+  xy: 866, 4
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+Sprites/Front_Arm_Back
+  rotate: false
+  xy: 823, 2
+  size: 41, 56
+  orig: 41, 56
+  offset: 0, 0
+  index: -1
+Sprites/Front_Hand
+  rotate: false
+  xy: 1394, 92
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+Sprites/Front_Hand_Back
+  rotate: false
+  xy: 1440, 94
+  size: 44, 32
+  orig: 44, 32
+  offset: 0, 0
+  index: -1
+Sprites/Front_Head
+  rotate: false
+  xy: 1081, 71
+  size: 84, 55
+  orig: 84, 55
+  offset: 0, 0
+  index: -1
+Sprites/Front_LowerTorso
+  rotate: true
+  xy: 98, 10
+  size: 60, 84
+  orig: 60, 84
+  offset: 0, 0
+  index: -1
+Sprites/Front_UpperArm_Down
+  rotate: false
+  xy: 363, 2
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+Sprites/Front_UpperArm_Up
+  rotate: false
+  xy: 392, 2
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+Sprites/Front_UpperTorso
+  rotate: false
+  xy: 2, 9
+  size: 94, 61
+  orig: 94, 61
+  offset: 0, 0
+  index: -1
+Sprites/Head
+  rotate: false
+  xy: 1265, 95
+  size: 81, 31
+  orig: 81, 31
+  offset: 0, 0
+  index: -1
+Sprites/Lance
+  rotate: true
+  xy: 2, 72
+  size: 54, 421
+  orig: 54, 421
+  offset: 0, 0
+  index: -1
+Sprites/Laser_Head
+  rotate: false
+  xy: 819, 60
+  size: 89, 66
+  orig: 89, 66
+  offset: 0, 0
+  index: -1
+Sprites/Laser_Torso
+  rotate: false
+  xy: 425, 53
+  size: 98, 73
+  orig: 98, 73
+  offset: 0, 0
+  index: -1
+Sprites/LeftHand
+  rotate: true
+  xy: 725, 2
+  size: 47, 96
+  orig: 47, 96
+  offset: 0, 0
+  index: -1
+Sprites/LeftHand2
+  rotate: true
+  xy: 184, 27
+  size: 43, 96
+  orig: 43, 96
+  offset: 0, 0
+  index: -1
+Sprites/LeftUpperArm
+  rotate: false
+  xy: 1562, 93
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+Sprites/Leg
+  rotate: true
+  xy: 209, 6
+  size: 19, 31
+  orig: 19, 31
+  offset: 0, 0
+  index: -1
+Sprites/LegMat1
+  rotate: false
+  xy: 1527, 93
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+Sprites/LegMat2
+  rotate: true
+  xy: 1486, 89
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+Sprites/LegMat2-2
+  rotate: false
+  xy: 1651, 107
+  size: 37, 19
+  orig: 37, 19
+  offset: 0, 0
+  index: -1
+Sprites/LegMat3
+  rotate: false
+  xy: 1620, 97
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+Sprites/RedEye
+  rotate: false
+  xy: 510, 40
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+Sprites/RightHand
+  rotate: true
+  xy: 1167, 83
+  size: 43, 96
+  orig: 43, 96
+  offset: 0, 0
+  index: -1
+Sprites/RightUpperArm
+  rotate: false
+  xy: 1591, 93
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+Sprites/Shoulder
+  rotate: false
+  xy: 184, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+Sprites/Side_Head
+  rotate: false
+  xy: 282, 30
+  size: 79, 40
+  orig: 79, 40
+  offset: 0, 0
+  index: -1
+Sprites/Side_LowerTorso
+  rotate: true
+  xy: 910, 56
+  size: 70, 82
+  orig: 70, 82
+  offset: 0, 0
+  index: -1
+Sprites/Side_UpperTorso
+  rotate: false
+  xy: 725, 51
+  size: 92, 75
+  orig: 92, 75
+  offset: 0, 0
+  index: -1
+Sprites/Torso_Idle_Below
+  rotate: false
+  xy: 525, 33
+  size: 98, 93
+  orig: 98, 93
+  offset: 0, 0
+  index: -1
+Sprites/Torso_Idle_Up
+  rotate: false
+  xy: 625, 32
+  size: 98, 94
+  orig: 98, 94
+  offset: 0, 0
+  index: -1
+Sprites/Torso_Lower
+  rotate: true
+  xy: 994, 63
+  size: 63, 85
+  orig: 63, 85
+  offset: 0, 0
+  index: -1

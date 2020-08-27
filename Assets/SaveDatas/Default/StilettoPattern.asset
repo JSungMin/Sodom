@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23539fd4205ff0245a90a352f6e0e3bb, type: 3}
+  m_Name: StilettoPattern
+  m_EditorClassIdentifier: 
+  isBuilded: 1
+  patternList:
+  - patternName: "\uD558\uB2E8\uCC0C\uB974\uAE30"
+    patternPriority: 0
+    skillBuffer:
+    - "\uD558\uB2E8\uCC0C\uB974\uAE30"
+    patternType: 0
+  - patternName: "\uC911\uB2E8\uCC0C\uB974\uAE30"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC911\uB2E8\uCC0C\uB974\uAE30"
+    patternType: 0
+  - patternName: "\uC911\uB2E8\uBCA0\uAE30"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC911\uB2E8\uBCA0\uAE30"
+    patternType: 0
+  - patternName: "\uC0C1\uB2E8\uD0A5"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC0C1\uB2E8\uD0A5"
+    patternType: 0
+  - patternName: "\uC0C1\uB2E8\uCC0C\uB974\uAE30"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC0C1\uB2E8\uCC0C\uB974\uAE30"
+    patternType: 0
+  - patternName: "\uC0C1\uB2E8\uD0A5_\uC911\uB2E8\uCC0C\uB974\uAE30_\uC911\uB2E8\uBCA0\uAE30"
+    patternPriority: 1
+    skillBuffer:
+    - "\uC0C1\uB2E8\uD0A5"
+    - "\uC911\uB2E8\uCC0C\uB974\uAE30"
+    - "\uC911\uB2E8\uBCA0\uAE30"
+    patternType: 1
+  - patternName: "\uD558\uB2E8\uCC0C\uB974\uAE30_\uC911\uB2E8\uCC0C\uB974\uAE30"
+    patternPriority: 1
+    skillBuffer:
+    - "\uC911\uB2E8\uCC0C\uB974\uAE30"
+    - "\uD558\uB2E8\uCC0C\uB974\uAE30"
+    patternType: 1
+  - patternName: "\uC0F7\uAC74"
+    patternPriority: 1
+    skillBuffer:
+    - "\uC0F7\uAC74_\uC900\uBE44"
+    - "\uC0F7\uAC74_\uC0F7"
+    - "\uC0F7\uAC74_\uC644\uB8CC"
+    patternType: 1
+  - patternName: "\uBC1C\uB3C4"
+    patternPriority: 2
+    skillBuffer:
+    - "\uBC1C\uB3C4_\uC900\uBE44"
+    - "\uBC1C\uB3C4_\uC644\uB8CC"
+    patternType: 1
+  - patternName: "\uBD84\uB178"
+    patternPriority: 5
+    skillBuffer:
+    - "\uBD84\uB178"
+    patternType: 0
+  - patternName: "\uC989\uC2DC\uC0AC\uACA9"
+    patternPriority: 2
+    skillBuffer:
+    - "\uC989\uC2DC\uC0AC\uACA9"
+    patternType: 0
+  - patternName: "\uC2AC\uB77C\uC774\uB529_\uC989\uC2DC\uC0AC\uACA9"
+    patternPriority: 2
+    skillBuffer:
+    - "\uC2AC\uB77C\uC774\uB529_\uC900\uBE44"
+    - "\uC989\uC2DC\uC0AC\uACA9"
+    patternType: 1
+  - patternName: "\uC0C1\uB2E8\uD0A5_\uC0C1\uB2E8\uCC0C\uB974\uAE30"
+    patternPriority: 2
+    skillBuffer:
+    - "\uC0C1\uB2E8\uD0A5"
+    - "\uC0C1\uB2E8\uCC0C\uB974\uAE30"
+    patternType: 1
+  - patternName: "\uC911\uB2E8\uCC0C\uB974\uAE30_\uC989\uC2DC\uC0AC\uACA9"
+    patternPriority: 1
+    skillBuffer:
+    - "\uC911\uB2E8\uCC0C\uB974\uAE30"
+    - "\uC989\uC2DC\uC0AC\uACA9"
+    patternType: 1

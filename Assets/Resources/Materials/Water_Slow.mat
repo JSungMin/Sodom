@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water_Slow
+  m_Shader: {fileID: 4800000, guid: 18d81db6d63ad374580db612dc1960e3, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA PIXELSNAP_ON USESPARKLE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 16fbf4e57693e02468482071f7dce8a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.5, y: 0}
+    - _CollisionTex:
+        m_Texture: {fileID: 8400000, guid: c11b6f787592bc6478c4a7e7eab36da4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailBumpTex:
+        m_Texture: {fileID: 2800000, guid: 9b86882cd1b97944eb4625da52fcc352, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightDispTex:
+        m_Texture: {fileID: 2800000, guid: 42d9b31dd48f2154caa8d8ecf84c170a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10910, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 1
+    - UseGradation: 1
+    - UseSparkle: 1
+    - _BaseMagnitude: 0.03
+    - _BaseScrollSpeed: 0.015
+    - _BottomWeight: 1.5
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailMagnitude: 0.01
+    - _DetailNormalMapScale: 1
+    - _DetailScrollSpeed: 0.025
+    - _DstBlend: 0
+    - _EnableExternalAlpha: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Magnitude: 0.05
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SparkleDistance: 0.01
+    - _SparkleNum: 5
+    - _SparkleThreshold: 90
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TintWeight: 0.3
+    - _TopWeight: 1
+    - _UVSec: 0
+    - _WaterFreq: 30
+    - _WaterHeight: 0
+    - _WaterIncline: 2
+    - _WaterWaveHeight: 0.01
+    - _ZWrite: 1
+    m_Colors:
+    - _BottomTint: {r: 0, g: 0.38235295, b: 0.17667337, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Colour: {r: 0.4750757, g: 0.6762156, b: 0.74264705, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _PivotOffset: {r: 0, g: 4, b: 0, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SparkleColour: {r: 0.26167822, g: 0.5832717, b: 0.64705884, a: 1}
+    - _TopTint: {r: 0.7941176, g: 0.7941176, b: 0.7941176, a: 1}

@@ -1,0 +1,125 @@
+
+Librarian.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm
+  rotate: false
+  xy: 1634, 1843
+  size: 182, 172
+  orig: 182, 172
+  offset: 0, 0
+  index: -1
+ArmHolder
+  rotate: false
+  xy: 2, 2
+  size: 320, 207
+  orig: 320, 207
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 2, 211
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+EyeBall
+  rotate: false
+  xy: 354, 309
+  size: 252, 252
+  orig: 252, 252
+  offset: 0, 0
+  index: -1
+Eyelid
+  rotate: false
+  xy: 718, 1333
+  size: 255, 127
+  orig: 255, 127
+  offset: 0, 0
+  index: -1
+Finger
+  rotate: true
+  xy: 1422, 1669
+  size: 104, 124
+  orig: 104, 124
+  offset: 0, 0
+  index: -1
+Frame
+  rotate: false
+  xy: 2, 1265
+  size: 710, 750
+  orig: 710, 750
+  offset: 0, 0
+  index: -1
+Hand
+  rotate: false
+  xy: 718, 1462
+  size: 268, 201
+  orig: 268, 201
+  offset: 0, 0
+  index: -1
+Joint1
+  rotate: false
+  xy: 354, 195
+  size: 114, 112
+  orig: 114, 112
+  offset: 0, 0
+  index: -1
+Joint2
+  rotate: false
+  xy: 1818, 1891
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+Joint3
+  rotate: false
+  xy: 988, 1478
+  size: 186, 185
+  orig: 186, 185
+  offset: 0, 0
+  index: -1
+Pupil
+  rotate: false
+  xy: 718, 1665
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+Pupil Add
+  rotate: false
+  xy: 1070, 1665
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+Pupil Line
+  rotate: false
+  xy: 1176, 1493
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+Shoulder
+  rotate: false
+  xy: 1422, 1775
+  size: 210, 240
+  orig: 210, 240
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 2, 563
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+VerticalLine
+  rotate: false
+  xy: 714, 1315
+  size: 2, 700
+  orig: 2, 700
+  offset: 0, 0
+  index: -1

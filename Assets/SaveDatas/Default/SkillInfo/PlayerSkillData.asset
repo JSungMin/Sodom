@@ -1,0 +1,805 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa688edd6fae9d45afe1848e036a7ef, type: 3}
+  m_Name: PlayerSkillData
+  m_EditorClassIdentifier: 
+  isBuilded: 1
+  allPlayerSkillInfo:
+    groundSkillList:
+    - skillName: Normal_Attack01
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Basic_Attack01
+      fxName: Player01_Basic_Attack01
+      useSfxType: 4
+      successSfxType: 3
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 61000000
+      lastNode: 0
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 1
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0.3
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 1
+      forwardStepAmount: 3
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: Normal_Attack02
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Basic_Attack02
+      fxName: Player01_Basic_Attack02
+      useSfxType: 4
+      successSfxType: 3
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 6100000061000000
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 2
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0.3
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 3
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: Counter_High_Ready
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Counter_High
+      fxName: Player01_Counter_High01
+      useSfxType: 0
+      successSfxType: 6
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 1
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 1101000073000000
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 2.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: Counter_Middle_Ready
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Counter_Middle
+      fxName: Player01_Counter_Middle01
+      useSfxType: 0
+      successSfxType: 6
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 2
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 73000000
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 2.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 10
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: Counter_Low_Ready
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Counter_Low
+      fxName: Player01_Counter_Middle01
+      useSfxType: 0
+      successSfxType: 6
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 3
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 1201000073000000
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 2.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    airSkilllist:
+    - skillName: Air_Attack01
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Jump_Attack
+      fxName: Player01_Jump_Attack
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 1
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 61000000
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 1
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0.3
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    anyTimeSkillList:
+    - skillName: Counter_High
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Basic_Attack01
+      fxName: Player01_Basic_Attack01
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: Counter_Middle
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Basic_Attack02
+      fxName: Player01_Basic_Attack02
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: Counter_Low
+      prevSkillName: 
+      animIndex: 0
+      animName: Player01_Basic_Attack02
+      fxName: Player01_Basic_Attack02
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+  gSkillTreeHead:
+    element: 0
+    childs:
+    - element: 97
+      childs:
+      - element: 97
+        childs: []
+        useableSkill:
+          skillName: Normal_Attack02
+          prevSkillName: 
+          animIndex: 0
+          animName: Player01_Basic_Attack02
+          fxName: Player01_Basic_Attack02
+          useSfxType: 4
+          successSfxType: 3
+          animLoop: 1
+          isLearned: 0
+          entityType: 0
+          skillType: 0
+          skillCounterType: 0
+          skillDamageType: 0
+          consumeType: 0
+          skillCommand: 6100000061000000
+          lastNode: 1
+          conditionEffects: 
+          durations: []
+          effectiveness: []
+          damage: 2
+          animationSpeed: 1
+          warmupTime: 0
+          cooldownTime: 0
+          consumeAmount: 0
+          knockoutTime: 0.3
+          useInertia: 0
+          onAttackEnterEventList: []
+          onAttackUpdateEventList: []
+          onAttackExitEventList: []
+          onDamagedEnterEventList:
+          - VibrateCamera
+          onDamagedUpdateEventList: []
+          onDamagedExitEventList: []
+          vibrateAmount: 2
+          forwardStepAmount: 3
+          dashAmount: 0
+          smashAmount: 0
+          launchAmount: 0
+          teleportDir: {x: 0, y: 0, z: 0}
+          teleportAmount: 0
+        depth: 2
+      useableSkill:
+        skillName: Normal_Attack01
+        prevSkillName: 
+        animIndex: 0
+        animName: Player01_Basic_Attack01
+        fxName: Player01_Basic_Attack01
+        useSfxType: 4
+        successSfxType: 3
+        animLoop: 1
+        isLearned: 0
+        entityType: 0
+        skillType: 0
+        skillCounterType: 0
+        skillDamageType: 0
+        consumeType: 0
+        skillCommand: 61000000
+        lastNode: 0
+        conditionEffects: 
+        durations: []
+        effectiveness: []
+        damage: 1
+        animationSpeed: 1
+        warmupTime: 0
+        cooldownTime: 0
+        consumeAmount: 0
+        knockoutTime: 0.3
+        useInertia: 0
+        onAttackEnterEventList: []
+        onAttackUpdateEventList: []
+        onAttackExitEventList: []
+        onDamagedEnterEventList:
+        - VibrateCamera
+        onDamagedUpdateEventList: []
+        onDamagedExitEventList: []
+        vibrateAmount: 1
+        forwardStepAmount: 3
+        dashAmount: 0
+        smashAmount: 0
+        launchAmount: 0
+        teleportDir: {x: 0, y: 0, z: 0}
+        teleportAmount: 0
+      depth: 1
+    - element: 273
+      childs:
+      - element: 115
+        childs: []
+        useableSkill:
+          skillName: Counter_High_Ready
+          prevSkillName: 
+          animIndex: 0
+          animName: Player01_Counter_High
+          fxName: Player01_Counter_High01
+          useSfxType: 0
+          successSfxType: 6
+          animLoop: 1
+          isLearned: 0
+          entityType: 0
+          skillType: 0
+          skillCounterType: 1
+          skillDamageType: 0
+          consumeType: 0
+          skillCommand: 1101000073000000
+          lastNode: 1
+          conditionEffects: 
+          durations: []
+          effectiveness: []
+          damage: 0
+          animationSpeed: 1
+          warmupTime: 0
+          cooldownTime: 0
+          consumeAmount: 0
+          knockoutTime: 2.5
+          useInertia: 0
+          onAttackEnterEventList: []
+          onAttackUpdateEventList: []
+          onAttackExitEventList: []
+          onDamagedEnterEventList: []
+          onDamagedUpdateEventList: []
+          onDamagedExitEventList: []
+          vibrateAmount: 2
+          forwardStepAmount: 0
+          dashAmount: 0
+          smashAmount: 0
+          launchAmount: 0
+          teleportDir: {x: 0, y: 0, z: 0}
+          teleportAmount: 0
+        depth: 2
+      useableSkill:
+        skillName: NONAME
+        prevSkillName: 
+        animIndex: 0
+        animName: 
+        fxName: 
+        useSfxType: 0
+        successSfxType: 0
+        animLoop: 1
+        isLearned: 0
+        entityType: 0
+        skillType: 0
+        skillCounterType: 0
+        skillDamageType: 0
+        consumeType: 0
+        skillCommand: 
+        lastNode: 0
+        conditionEffects: 
+        durations: []
+        effectiveness: []
+        damage: 0
+        animationSpeed: 1
+        warmupTime: 0
+        cooldownTime: 0
+        consumeAmount: 0
+        knockoutTime: 0
+        useInertia: 0
+        onAttackEnterEventList: []
+        onAttackUpdateEventList: []
+        onAttackExitEventList: []
+        onDamagedEnterEventList: []
+        onDamagedUpdateEventList: []
+        onDamagedExitEventList: []
+        vibrateAmount: 0
+        forwardStepAmount: 0
+        dashAmount: 0
+        smashAmount: 0
+        launchAmount: 0
+        teleportDir: {x: 0, y: 0, z: 0}
+        teleportAmount: 0
+      depth: 1
+    - element: 115
+      childs: []
+      useableSkill:
+        skillName: Counter_Middle_Ready
+        prevSkillName: 
+        animIndex: 0
+        animName: Player01_Counter_Middle
+        fxName: Player01_Counter_Middle01
+        useSfxType: 0
+        successSfxType: 6
+        animLoop: 1
+        isLearned: 0
+        entityType: 0
+        skillType: 0
+        skillCounterType: 2
+        skillDamageType: 0
+        consumeType: 0
+        skillCommand: 73000000
+        lastNode: 1
+        conditionEffects: 
+        durations: []
+        effectiveness: []
+        damage: 0
+        animationSpeed: 1
+        warmupTime: 0
+        cooldownTime: 0
+        consumeAmount: 0
+        knockoutTime: 2.5
+        useInertia: 0
+        onAttackEnterEventList: []
+        onAttackUpdateEventList: []
+        onAttackExitEventList: []
+        onDamagedEnterEventList: []
+        onDamagedUpdateEventList: []
+        onDamagedExitEventList: []
+        vibrateAmount: 2
+        forwardStepAmount: 0
+        dashAmount: 0
+        smashAmount: 0
+        launchAmount: 10
+        teleportDir: {x: 0, y: 0, z: 0}
+        teleportAmount: 0
+      depth: 1
+    - element: 274
+      childs:
+      - element: 115
+        childs: []
+        useableSkill:
+          skillName: Counter_Low_Ready
+          prevSkillName: 
+          animIndex: 0
+          animName: Player01_Counter_Low
+          fxName: Player01_Counter_Middle01
+          useSfxType: 0
+          successSfxType: 6
+          animLoop: 1
+          isLearned: 0
+          entityType: 0
+          skillType: 0
+          skillCounterType: 3
+          skillDamageType: 0
+          consumeType: 0
+          skillCommand: 1201000073000000
+          lastNode: 1
+          conditionEffects: 
+          durations: []
+          effectiveness: []
+          damage: 0
+          animationSpeed: 1
+          warmupTime: 0
+          cooldownTime: 0
+          consumeAmount: 0
+          knockoutTime: 2.5
+          useInertia: 0
+          onAttackEnterEventList: []
+          onAttackUpdateEventList: []
+          onAttackExitEventList: []
+          onDamagedEnterEventList: []
+          onDamagedUpdateEventList: []
+          onDamagedExitEventList: []
+          vibrateAmount: 2
+          forwardStepAmount: 0
+          dashAmount: 0
+          smashAmount: 0
+          launchAmount: 0
+          teleportDir: {x: 0, y: 0, z: 0}
+          teleportAmount: 0
+        depth: 2
+      useableSkill:
+        skillName: NONAME
+        prevSkillName: 
+        animIndex: 0
+        animName: 
+        fxName: 
+        useSfxType: 0
+        successSfxType: 0
+        animLoop: 1
+        isLearned: 0
+        entityType: 0
+        skillType: 0
+        skillCounterType: 0
+        skillDamageType: 0
+        consumeType: 0
+        skillCommand: 
+        lastNode: 0
+        conditionEffects: 
+        durations: []
+        effectiveness: []
+        damage: 0
+        animationSpeed: 1
+        warmupTime: 0
+        cooldownTime: 0
+        consumeAmount: 0
+        knockoutTime: 0
+        useInertia: 0
+        onAttackEnterEventList: []
+        onAttackUpdateEventList: []
+        onAttackExitEventList: []
+        onDamagedEnterEventList: []
+        onDamagedUpdateEventList: []
+        onDamagedExitEventList: []
+        vibrateAmount: 0
+        forwardStepAmount: 0
+        dashAmount: 0
+        smashAmount: 0
+        launchAmount: 0
+        teleportDir: {x: 0, y: 0, z: 0}
+        teleportAmount: 0
+      depth: 1
+    useableSkill:
+      skillName: NONAME
+      prevSkillName: 
+      animIndex: 0
+      animName: 
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 0
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    depth: 0
+  aSkillTreeHead:
+    element: 0
+    childs:
+    - element: 97
+      childs: []
+      useableSkill:
+        skillName: Air_Attack01
+        prevSkillName: 
+        animIndex: 0
+        animName: Player01_Jump_Attack
+        fxName: Player01_Jump_Attack
+        useSfxType: 0
+        successSfxType: 0
+        animLoop: 1
+        isLearned: 0
+        entityType: 1
+        skillType: 0
+        skillCounterType: 0
+        skillDamageType: 0
+        consumeType: 0
+        skillCommand: 61000000
+        lastNode: 1
+        conditionEffects: 
+        durations: []
+        effectiveness: []
+        damage: 1
+        animationSpeed: 1
+        warmupTime: 0
+        cooldownTime: 0
+        consumeAmount: 0
+        knockoutTime: 0.3
+        useInertia: 0
+        onAttackEnterEventList: []
+        onAttackUpdateEventList: []
+        onAttackExitEventList: []
+        onDamagedEnterEventList: []
+        onDamagedUpdateEventList: []
+        onDamagedExitEventList: []
+        vibrateAmount: 0
+        forwardStepAmount: 0
+        dashAmount: 0
+        smashAmount: 0
+        launchAmount: 0
+        teleportDir: {x: 0, y: 0, z: 0}
+        teleportAmount: 0
+      depth: 1
+    useableSkill:
+      skillName: NONAME
+      prevSkillName: 
+      animIndex: 0
+      animName: 
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 0
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    depth: 0

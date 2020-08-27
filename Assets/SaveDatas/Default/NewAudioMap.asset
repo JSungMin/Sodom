@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce64f8cc318af9a4cbb68fbe43da733a, type: 3}
+  m_Name: NewAudioMap
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 6620917113b236e4983ddd72feeeb073, type: 2}
+  audioInfoList:
+  - audioType: 3
+    clip: {fileID: 8300000, guid: c1a3e7935336f02449131f0fcb1cb8df, type: 3}
+    volume: 0.8
+    pitch: 1
+    mixerGroup: {fileID: 243155957848967226, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 4
+    clip: {fileID: 8300000, guid: a575f64afbc559a49a2b9c845cf971ea, type: 3}
+    volume: 0.4
+    pitch: 1
+    mixerGroup: {fileID: 243155957848967226, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 6
+    clip: {fileID: 8300000, guid: 576ac986a66abe248a3ed6cf799da2ba, type: 3}
+    volume: 0.8
+    pitch: 1
+    mixerGroup: {fileID: 243155957848967226, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 7
+    clip: {fileID: 8300000, guid: 6153cc2ebab32db41978f0095e207a1e, type: 3}
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 243821607637334264, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 8
+    clip: {fileID: 8300000, guid: 46f605b07e996114aa3c0b6986e894f1, type: 3}
+    volume: 0.6
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 9
+    clip: {fileID: 8300000, guid: 3a2f825dc4005094f8b3f32082a93a1c, type: 3}
+    volume: 1
+    pitch: 1.2
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 10
+    clip: {fileID: 8300000, guid: e087b0fe8a85ec143a8bc7b4efc72563, type: 3}
+    volume: 0.7
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 11
+    clip: {fileID: 8300000, guid: d07ec6cd268dc294399fe8b699121b9a, type: 3}
+    volume: 0.8
+    pitch: 1.5
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 13
+    clip: {fileID: 8300000, guid: 1b5a41112a338ba44b7754d0b6437744, type: 3}
+    volume: 0.8
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 14
+    clip: {fileID: 8300000, guid: 00b46b5c4aa48854cb71786bf6bac4b8, type: 3}
+    volume: 1
+    pitch: 1.2
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 12
+    clip: {fileID: 8300000, guid: 1b5a41112a338ba44b7754d0b6437744, type: 3}
+    volume: 1
+    pitch: 0.8
+    mixerGroup: {fileID: 0}
+  - audioType: 15
+    clip: {fileID: 8300000, guid: c78954a63e09a6545973bae27f006d1d, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 16
+    clip: {fileID: 8300000, guid: 4c4e6b2a76beefa448d2e7b16c73cde0, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 17
+    clip: {fileID: 8300000, guid: dff0eadb6a5ff5741aa29296965c7d0a, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 18
+    clip: {fileID: 8300000, guid: 46d17f6073c4568488eeb0867cacac6b, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 20
+    clip: {fileID: 8300000, guid: 36c27dc73a871a44f9c77150dbf9dc1e, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 19
+    clip: {fileID: 8300000, guid: 5e765ae35c2162247aec49aadcfec4c9, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 22
+    clip: {fileID: 8300000, guid: db27aeaeb058856408833c33a1690707, type: 3}
+    volume: 0.3
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  - audioType: 21
+    clip: {fileID: 8300000, guid: 9101c3e4d0165a848aa6f3b9e0443720, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: 243444929072813134, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}
+  snapshotInfoList:
+  - snapshotType: 0
+    snapshot: {fileID: 24500006, guid: 6620917113b236e4983ddd72feeeb073, type: 2}
+  - snapshotType: 1
+    snapshot: {fileID: 245929161595292228, guid: 6620917113b236e4983ddd72feeeb073,
+      type: 2}

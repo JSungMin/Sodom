@@ -1,0 +1,146 @@
+
+Metatron.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FootLeft
+  rotate: false
+  xy: 689, 55
+  size: 18, 7
+  orig: 18, 7
+  offset: 0, 0
+  index: -1
+FootRight
+  rotate: false
+  xy: 539, 20
+  size: 28, 7
+  orig: 28, 7
+  offset: 0, 0
+  index: -1
+HandLeft
+  rotate: true
+  xy: 480, 2
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+HandRight
+  rotate: false
+  xy: 418, 2
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 469, 29
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+Head_Side
+  rotate: false
+  xy: 513, 29
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+LowerBody
+  rotate: true
+  xy: 557, 29
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+LowerBody_Side
+  rotate: true
+  xy: 593, 29
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+LowerLegLeft
+  rotate: true
+  xy: 629, 34
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+LowerLegRight
+  rotate: true
+  xy: 442, 2
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+ShoulderLeft
+  rotate: false
+  xy: 516, 5
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+ShoulderRight
+  rotate: false
+  xy: 668, 41
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 66, 6
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+Torso_Back1
+  rotate: true
+  xy: 190, 4
+  size: 58, 59
+  orig: 58, 59
+  offset: 0, 0
+  index: -1
+Torso_Front
+  rotate: false
+  xy: 2, 4
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+Torso_Side
+  rotate: false
+  xy: 129, 6
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+Torso_Side2
+  rotate: false
+  xy: 251, 6
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+Torso_Side3
+  rotate: false
+  xy: 311, 8
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+UpperLegLeft
+  rotate: true
+  xy: 418, 35
+  size: 27, 49
+  orig: 27, 49
+  offset: 0, 0
+  index: -1
+UpperLegRight
+  rotate: false
+  xy: 371, 14
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23539fd4205ff0245a90a352f6e0e3bb, type: 3}
+  m_Name: HundPattern
+  m_EditorClassIdentifier: 
+  isBuilded: 1
+  patternList:
+  - patternName: "\uC0C1\uB2E8\uB72F\uAE30"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC0C1\uB2E8\uB72F\uAE30"
+    patternType: 0
+  - patternName: "\uC911\uB2E8\uB72F\uAE3001"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC911\uB2E8\uB72F\uAE3001"
+    patternType: 0
+  - patternName: "\uC911\uB2E8\uB72F\uAE3002"
+    patternPriority: 0
+    skillBuffer:
+    - "\uC911\uB2E8\uB72F\uAE3002"
+    patternType: 0
+  - patternName: "\uD558\uB2E8\uB72F\uAE3001"
+    patternPriority: 0
+    skillBuffer:
+    - "\uD558\uB2E8\uB72F\uAE3001"
+    patternType: 0
+  - patternName: "\uB3CC\uC9C4"
+    patternPriority: 6
+    skillBuffer:
+    - "\uB3CC\uC9C4"
+    patternType: 0
+  - patternName: "\uD22C\uC0AC\uCCB4"
+    patternPriority: 2
+    skillBuffer:
+    - "\uD22C\uC0AC\uCCB4_\uC900\uBE44"
+    - "\uD22C\uC0AC\uCCB4_\uD558\uB2E8"
+    - "\uD22C\uC0AC\uCCB4_\uC0C1\uB2E8"
+    - "\uD22C\uC0AC\uCCB4_\uD558\uB2E8"
+    patternType: 1
+  - patternName: "\uAE09\uC2B5"
+    patternPriority: 0
+    skillBuffer:
+    - "\uAE09\uC2B5"
+    patternType: 0
+  - patternName: "\uAF2C\uB9AC\uCE58\uAE30_\uC911\uB2E8"
+    patternPriority: 1
+    skillBuffer:
+    - "\uAF2C\uB9AC\uCE58\uAE30_\uC911\uB2E8"
+    patternType: 0
+  - patternName: "\uC1FC\uD06C\uC6E8\uC774\uBE0C"
+    patternPriority: 2
+    skillBuffer:
+    - "\uC1FC\uD06C\uC6E8\uC774\uBE0C"
+    patternType: 0
+  - patternName: "\uC911\uB2E8_\uD558\uB2E8_\uC911\uB2E8\uB72F\uAE30"
+    patternPriority: 2
+    skillBuffer:
+    - "\uC911\uB2E8\uB72F\uAE3001"
+    - "\uD558\uB2E8\uB72F\uAE3002"
+    - "\uC911\uB2E8\uB72F\uAE3002"
+    patternType: 1
+  - patternName: "\uC911\uB2E8\uB72F\uAE3003"
+    patternPriority: 1
+    skillBuffer:
+    - "\uC911\uB2E8\uB72F\uAE3003"
+    patternType: 0
+  - patternName: "\uD558\uB2E8\uB72F\uAE3002"
+    patternPriority: 1
+    skillBuffer:
+    - "\uD558\uB2E8\uB72F\uAE3002"
+    patternType: 0
+  - patternName: "\uBC31\uC2A4\uD15D"
+    patternPriority: 5
+    skillBuffer:
+    - "\uBC31\uC2A4\uD15D"
+    patternType: 0
+  - patternName: "\uCD94\uC801"
+    patternPriority: 1
+    skillBuffer:
+    - "\uCD94\uC801"
+    patternType: 0
+  - patternName: "\uCD94\uC801_\uC911\uB2E8\uB72F\uAE3002"
+    patternPriority: 5
+    skillBuffer:
+    - "\uCD94\uC801"
+    - "\uC911\uB2E8\uB72F\uAE3002"
+    patternType: 0
+  - patternName: "\uCD94\uC801_\uD558\uB2E8\uB72F\uAE3001"
+    patternPriority: 5
+    skillBuffer:
+    - "\uCD94\uC801"
+    - "\uC911\uB2E8\uB72F\uAE3002"
+    patternType: 0
+  - patternName: "\uAF2C\uB9AC\uCE58\uAE30_\uC0C1\uB2E8"
+    patternPriority: 1
+    skillBuffer:
+    - "\uAF2C\uB9AC\uCE58\uAE30_\uC0C1\uB2E8"
+    patternType: 0
+  - patternName: "\uBBF8\uC0AC\uC77C\uBC1C\uC0AC"
+    patternPriority: 2
+    skillBuffer:
+    - "\uBBF8\uC0AC\uC77C\uBC1C\uC0AC"
+    patternType: 0

@@ -1,0 +1,307 @@
+
+Tuto.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_Back
+  rotate: false
+  xy: 137, 2
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+Arm_Front
+  rotate: false
+  xy: 151, 2
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+Arm_Front_Sword
+  rotate: true
+  xy: 202, 51
+  size: 11, 46
+  orig: 11, 46
+  offset: 0, 0
+  index: -1
+Arm_Hand_Back
+  rotate: true
+  xy: 298, 20
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+Arm_Hand_Front
+  rotate: true
+  xy: 310, 21
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+Arm_Hand_Sword_Back
+  rotate: false
+  xy: 235, 2
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+Arm_Hand_Sword_Front
+  rotate: false
+  xy: 320, 39
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+Arm_Side
+  rotate: false
+  xy: 191, 2
+  size: 9, 25
+  orig: 9, 25
+  offset: 0, 0
+  index: -1
+Arm_Sword_45_1
+  rotate: true
+  xy: 288, 34
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+Arm_Sword_45_2
+  rotate: false
+  xy: 415, 49
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+Arm_Sword_45_Back_1
+  rotate: false
+  xy: 202, 11
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Arm_Sword_45_Back_2
+  rotate: false
+  xy: 269, 34
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Arm_Sword_Back
+  rotate: true
+  xy: 71, 23
+  size: 11, 46
+  orig: 11, 46
+  offset: 0, 0
+  index: -1
+Arm_Sword_Side
+  rotate: true
+  xy: 202, 29
+  size: 8, 46
+  orig: 8, 46
+  offset: 0, 0
+  index: -1
+Elbow
+  rotate: false
+  xy: 503, 56
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Head1
+  rotate: false
+  xy: 126, 29
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+Head2
+  rotate: false
+  xy: 2, 3
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+Head3
+  rotate: false
+  xy: 38, 4
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+Head4
+  rotate: false
+  xy: 164, 29
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+LeftArm_1
+  rotate: false
+  xy: 165, 2
+  size: 11, 25
+  orig: 11, 25
+  offset: 0, 0
+  index: -1
+LeftArm_Sword
+  rotate: true
+  xy: 202, 39
+  size: 10, 46
+  orig: 10, 46
+  offset: 0, 0
+  index: -1
+LowerLeg_Left_1
+  rotate: true
+  xy: 373, 56
+  size: 6, 19
+  orig: 6, 19
+  offset: 0, 0
+  index: -1
+LowerLeg_Right_1
+  rotate: true
+  xy: 394, 57
+  size: 5, 19
+  orig: 5, 19
+  offset: 0, 0
+  index: -1
+RightArm_1
+  rotate: false
+  xy: 178, 2
+  size: 11, 25
+  orig: 11, 25
+  offset: 0, 0
+  index: -1
+RightArm_Sword
+  rotate: true
+  xy: 250, 52
+  size: 10, 46
+  orig: 10, 46
+  offset: 0, 0
+  index: -1
+ShotGun
+  rotate: false
+  xy: 2, 36
+  size: 122, 26
+  orig: 122, 26
+  offset: 0, 0
+  index: -1
+Shoulder
+  rotate: true
+  xy: 202, 3
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+Torso_Low_1
+  rotate: true
+  xy: 433, 49
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+Torso_Low_2
+  rotate: false
+  xy: 303, 35
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+Torso_Low_3
+  rotate: true
+  xy: 451, 49
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+Torso_Low_4
+  rotate: true
+  xy: 469, 49
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+Torso_Upper_1
+  rotate: false
+  xy: 221, 2
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+Torso_Upper_2
+  rotate: true
+  xy: 487, 51
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+Torso_Upper_3
+  rotate: false
+  xy: 284, 20
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+Torso_Upper_4
+  rotate: false
+  xy: 269, 20
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+Torso_Upper_Out_1
+  rotate: true
+  xy: 71, 2
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+Torso_Upper_Out_2
+  rotate: true
+  xy: 93, 2
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+Torso_Upper_Out_3
+  rotate: false
+  xy: 250, 30
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+Torso_Upper_Out_4
+  rotate: true
+  xy: 115, 2
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+UpperLeg_Left_1
+  rotate: true
+  xy: 323, 54
+  size: 8, 23
+  orig: 8, 23
+  offset: 0, 0
+  index: -1
+UpperLeg_Left_2
+  rotate: true
+  xy: 298, 53
+  size: 9, 23
+  orig: 9, 23
+  offset: 0, 0
+  index: -1
+UpperLeg_Right_1
+  rotate: true
+  xy: 221, 18
+  size: 9, 23
+  orig: 9, 23
+  offset: 0, 0
+  index: -1
+UpperLeg_Right_2
+  rotate: true
+  xy: 348, 54
+  size: 8, 23
+  orig: 8, 23
+  offset: 0, 0
+  index: -1

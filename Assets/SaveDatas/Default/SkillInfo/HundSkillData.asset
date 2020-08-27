@@ -1,0 +1,876 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa688edd6fae9d45afe1848e036a7ef, type: 3}
+  m_Name: HundSkillData
+  m_EditorClassIdentifier: 
+  isBuilded: 1
+  allPlayerSkillInfo:
+    groundSkillList:
+    - skillName: "\uC0C1\uB2E8\uB72F\uAE30"
+      prevSkillName: 
+      animIndex: 0
+      animName: Bite_High1
+      fxName: 
+      useSfxType: 18
+      successSfxType: 7
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 1
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 0
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 25
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 1
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList:
+      - ForwardDash
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 5
+      dashAmount: 12.5
+      smashAmount: 10
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uC911\uB2E8\uB72F\uAE3001"
+      prevSkillName: 
+      animIndex: 0
+      animName: Bite_Middle1
+      fxName: 
+      useSfxType: 18
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 25
+      animationSpeed: 1
+      warmupTime: 0.5
+      cooldownTime: 0.5
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList:
+      - ForwardDash
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      - SmashForward
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 5
+      dashAmount: 12.5
+      smashAmount: 15
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uC911\uB2E8\uB72F\uAE3002"
+      prevSkillName: 
+      animIndex: 0
+      animName: Bite_Middle2
+      fxName: 
+      useSfxType: 18
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 1
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 25
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 2
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      - SmashForward
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 5
+      dashAmount: 12.5
+      smashAmount: 15
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uD558\uB2E8\uB72F\uAE3001"
+      prevSkillName: 
+      animIndex: 0
+      animName: Bite_Low1
+      fxName: 
+      useSfxType: 17
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 3
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 25
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 2
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 1
+      onAttackEnterEventList:
+      - ForwardDash
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - SmashForward
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 5
+      dashAmount: 12.5
+      smashAmount: 15
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uB3CC\uC9C4"
+      prevSkillName: 
+      animIndex: 0
+      animName: Tackle
+      fxName: 
+      useSfxType: 0
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 25
+      animationSpeed: 1
+      warmupTime: 2
+      cooldownTime: 2
+      consumeAmount: 2
+      knockoutTime: 0.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - SmashForward
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 0
+      dashAmount: 50
+      smashAmount: 25
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uD22C\uC0AC\uCCB4_\uD558\uB2E8"
+      prevSkillName: 
+      animIndex: 0
+      animName: Ranged_Attack_Down1
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 3
+      cooldownTime: 3
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uAE09\uC2B5"
+      prevSkillName: 
+      animIndex: 0
+      animName: HideAttack_High
+      fxName: 
+      useSfxType: 0
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 2
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uAF2C\uB9AC\uCE58\uAE30_\uC911\uB2E8"
+      prevSkillName: 
+      animIndex: 0
+      animName: TailAttack_Middle1
+      fxName: 
+      useSfxType: 0
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 2
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 2
+      cooldownTime: 3
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      - SmashForward
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 10
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uC1FC\uD06C\uC6E8\uC774\uBE0C"
+      prevSkillName: 
+      animIndex: 0
+      animName: Shock
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 15
+      cooldownTime: 15
+      consumeAmount: 0
+      knockoutTime: 1.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uB3CC\uC9C4_\uC900\uBE44"
+      prevSkillName: 
+      animIndex: 0
+      animName: LowCharge_Ready
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uD558\uB2E8\uB72F\uAE3002"
+      prevSkillName: 
+      animIndex: 0
+      animName: Bite_Low1
+      fxName: 
+      useSfxType: 17
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 20
+      animationSpeed: 1
+      warmupTime: 0.75
+      cooldownTime: 0.75
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 1
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      - SmashForward
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 5
+      dashAmount: 12.5
+      smashAmount: 15
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uC911\uB2E8\uB72F\uAE3003"
+      prevSkillName: 
+      animIndex: 0
+      animName: Bite_Middle1
+      fxName: 
+      useSfxType: 17
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 2
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 20
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 1
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 1
+      onAttackEnterEventList:
+      - ForwardDash
+      - SmashVictim
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      - SmashForward
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 0
+      dashAmount: 5
+      smashAmount: 15
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uD22C\uC0AC\uCCB4_\uC0C1\uB2E8"
+      prevSkillName: 
+      animIndex: 0
+      animName: Ranged_Attack_Up1
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 3
+      cooldownTime: 3
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList:
+      - ForwardDash
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 3
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uD22C\uC0AC\uCCB4_\uC900\uBE44"
+      prevSkillName: 
+      animIndex: 0
+      animName: Ranged_Attack_Ready
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList:
+      - ForwardDash
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uAF2C\uB9AC\uCE58\uAE30_\uC0C1\uB2E8"
+      prevSkillName: 
+      animIndex: 0
+      animName: TailAttack_High1
+      fxName: 
+      useSfxType: 0
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 1
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 10
+      animationSpeed: 1
+      warmupTime: 2
+      cooldownTime: 3
+      consumeAmount: 0
+      knockoutTime: 0.25
+      useInertia: 0
+      onAttackEnterEventList:
+      - ForwardDash
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList:
+      - VibrateCamera
+      - SmashForward
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 2
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 20
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uBC31\uC2A4\uD15D"
+      prevSkillName: 
+      animIndex: 0
+      animName: BackStep
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 2
+      cooldownTime: 2
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 15
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uCD94\uC801"
+      prevSkillName: 
+      animIndex: 0
+      animName: Run
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 1
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 12.5
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uBBF8\uC0AC\uC77C\uBC1C\uC0AC"
+      prevSkillName: 
+      animIndex: 0
+      animName: 
+      fxName: 
+      useSfxType: 0
+      successSfxType: 7
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 3
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 5
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 1
+      consumeAmount: 0
+      knockoutTime: 0.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 20
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    - skillName: "\uC804\uAE30\uBCBD"
+      prevSkillName: 
+      animIndex: 0
+      animName: 
+      fxName: 
+      useSfxType: 0
+      successSfxType: 21
+      animLoop: 0
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 1
+      consumeType: 0
+      skillCommand: 
+      lastNode: 1
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 5
+      animationSpeed: 1
+      warmupTime: 1
+      cooldownTime: 1
+      consumeAmount: 0
+      knockoutTime: 0.5
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 20
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    airSkilllist: []
+    anyTimeSkillList: []
+  gSkillTreeHead:
+    element: 0
+    childs: []
+    useableSkill:
+      skillName: NONAME
+      prevSkillName: 
+      animIndex: 0
+      animName: 
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 0
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    depth: 0
+  aSkillTreeHead:
+    element: 0
+    childs: []
+    useableSkill:
+      skillName: NONAME
+      prevSkillName: 
+      animIndex: 0
+      animName: 
+      fxName: 
+      useSfxType: 0
+      successSfxType: 0
+      animLoop: 1
+      isLearned: 0
+      entityType: 0
+      skillType: 0
+      skillCounterType: 0
+      skillDamageType: 0
+      consumeType: 0
+      skillCommand: 
+      lastNode: 0
+      conditionEffects: 
+      durations: []
+      effectiveness: []
+      damage: 0
+      animationSpeed: 1
+      warmupTime: 0
+      cooldownTime: 0
+      consumeAmount: 0
+      knockoutTime: 0
+      useInertia: 0
+      onAttackEnterEventList: []
+      onAttackUpdateEventList: []
+      onAttackExitEventList: []
+      onDamagedEnterEventList: []
+      onDamagedUpdateEventList: []
+      onDamagedExitEventList: []
+      vibrateAmount: 0
+      forwardStepAmount: 0
+      dashAmount: 0
+      smashAmount: 0
+      launchAmount: 0
+      teleportDir: {x: 0, y: 0, z: 0}
+      teleportAmount: 0
+    depth: 0

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Ground
+  - NPC
+  - ITEM
   layers:
   - Default
   - TransparentFX
@@ -13,12 +17,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MapCollider
+  - CameraCollider
+  - Interactable
+  - Actor
+  - Dust
+  - RenderTexture
   - 
   - 
   - 
@@ -40,4 +44,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 52112349
+    locked: 0
+  - name: InteractiveObject
+    uniqueID: 180912945
+    locked: 0
+  - name: Actor
+    uniqueID: 1542817523
+    locked: 0
+  - name: Effect
+    uniqueID: 2800761591
+    locked: 0
+  - name: ForwardGround
+    uniqueID: 4062863795
+    locked: 0
+  - name: UI
+    uniqueID: 3109424165
     locked: 0
